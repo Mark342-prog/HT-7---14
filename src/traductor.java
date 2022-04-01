@@ -1,3 +1,4 @@
+package src;
 /**
  * traductor
  */
@@ -6,9 +7,9 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 public class traductor {
-
     public ArrayList<String> leerFichero(File fichero){
         ArrayList<String> lista = new ArrayList();
+        
         FileReader fr = null;
         BufferedReader br;
      
