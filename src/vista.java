@@ -1,4 +1,5 @@
 package src;
+import java.io.File;
 import java.util.Scanner;
 public class vista {
     Scanner sc = new Scanner(System.in);
@@ -12,5 +13,5 @@ public class vista {
         String p = sc.nextLine();
         return p;
     }
-    
+
 }
