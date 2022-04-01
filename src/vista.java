@@ -12,4 +12,5 @@ public class vista {
         String p = sc.nextLine();
         return p;
     }
+    
 }
